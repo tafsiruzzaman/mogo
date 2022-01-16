@@ -196,3 +196,46 @@ img {
     font-weight: 400;
     color: #999999;
 }
+
+/* =============================== About Part css Start ======================= */
+
+#about{
+    padding-bottom: 107px;
+}
+
+#about .about-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .about-item{
+    width: 370px;
+    position: relative;
+}
+
+#about .about-item .about-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#about .about-item:hover .about-overlay{
+    opacity: 1;
+}
+
+#about .about-item img{
+    width: 100%;
+}
+
+#about .about-item .about-content{
+    text-align: center;
+}
