@@ -238,4 +238,50 @@ img {
 
 #about .about-item .about-content{
     text-align: center;
+    color: #fff;
+    
+}
+
+#about .about-item .about-content h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#about .about-item .about-content i {
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+/* ======================= Counter Part css Start ========================= */
+
+#counter {
+    background: #95e1d3;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#counter .counter-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#counter .counter-item {
+    width: 170px;
+    text-align: center;
+}
+
+#counter .counter-item h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#counter .counter-item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
 }
