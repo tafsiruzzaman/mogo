@@ -285,3 +285,82 @@ img {
     font-weight: 400;
     color: #fff;
 }
+
+.extra {
+    margin-left: 0;
+}
+
+/* ===================== Service Part css Start =============================== */
+
+#service {
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+#service .service-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#service .service-head h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#service .service-head h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#service .service-head h2::after {
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+}
+
+#service .service-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#service .service-item {
+    width: 370px;
+    display: flex;
+    margin-top: 100px;
+}
+
+#service .service-item .service-left {
+    width: 70px;
+    text-align: center;
+}
+
+#service .service-item .service-right {
+    width: 300px;
+}
+
+#service .service-item .service-right h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+#service .service-item .service-right p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+}
