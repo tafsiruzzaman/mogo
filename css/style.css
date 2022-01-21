@@ -566,3 +566,157 @@ img {
     color: #fff;
     text-transform: uppercase;
 }
+
+/* =============================== Footer Part css Start =============================== */
+
+#footer {
+    padding-top: 75px;
+    padding-bottom: 22px;
+    background-color: #f8f8f8;
+}
+
+#footer .footer-main {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e5e5e5;
+    padding-bottom: 40px;
+}
+
+#footer .footer-left {
+    width: 500px;
+}
+
+#footer .footer-center {
+    width: 350px;
+}
+
+#footer .footer-right {
+    width: 270px;
+}
+
+#footer .footer-left p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999999;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#footer .footer-left h4 span {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#footer .footer-left h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+#footer .footer-left h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#footer .footer-left h5 span {
+    font-style: italic;
+    color: #999999;
+}
+
+#footer .footer-left h5 a {
+    color: #95e1d3;
+    padding-left: 18px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+#footer .footer-left h5 a:hover {
+    color: #f38181;
+}
+
+#footer .form-part {
+    position: relative;
+}
+
+form input {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #e5e5e5;
+    padding-left: 13px;
+}
+
+form button {
+    padding: 15px 35px;
+    background-color: #95e1d3;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#footer .footer-head{
+    padding-bottom: 15px;
+}
+
+#footer .footer-head h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+}
+
+#footer .blog-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#footer .blog-main .blog-img {
+    width: 120px;
+}
+
+#footer .blog-main .blog-text {
+    width: 200px;
+}
+
+#footer .blog-main .blog-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+#footer .blog-main .blog-text h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #999999;
+    margin-top: 5px;
+}
+
+#footer .insta-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#footer .insta-main .insta-item{
+    width: 33%;
+    margin-bottom: 2px;
+}
+
+#footer .copy-right p{
+    text-align: center;
+    padding-top: 20px;
+}
