@@ -446,11 +446,6 @@ img {
 
 /* ============================ Team Part css Start ============================== */
 
-#team {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 #team .team-main {
     display: flex;
     justify-content: space-between;
@@ -523,4 +518,51 @@ img {
     font-size: 15px;
     color: #999999;
     font-style: italic;
+}
+
+/* ============================================= gallery Part css Start ============================ */
+
+
+#gallery {
+    padding-bottom: 100px;
+}
+
+#gallery .gal-main {
+    display: flex;
+}
+
+#gallery .gal-main .gal-item {
+    width: 25%;
+}
+
+#gallery .gal-img img {
+    width: 100%;
+}
+
+#gallery .gal-img {
+    position: relative;
+}
+
+#gallery .gal-img .gal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+#gallery .gal-img:hover .gal-overlay {
+    opacity: 1;
+}
+
+#gallery .gal-img .gal-overlay .gal-content {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
 }
